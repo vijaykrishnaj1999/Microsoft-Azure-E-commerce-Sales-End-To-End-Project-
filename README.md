@@ -12,6 +12,7 @@ I mapped your actual resources from rg-data-engineering-project screenshot:
 
 <img width="1887" height="720" alt="screenshot 5" src="https://github.com/user-attachments/assets/b9ce0670-fceb-4cbe-9c4f-f1fbd4534d54" />
 
+
 •	Storage containers silver and gold with _delta_log + snappy.parquet proof
 
 <img width="1911" height="711" alt="screenshot 2" src="https://github.com/user-attachments/assets/98dc71bc-49d6-4372-aee1-ae1d15321f51" />

@@ -24,7 +24,7 @@ I mapped your actual resources from rg-data-engineering-project screenshot:
 
  ## Pipeline Details (from your 2 pipelines)
 
-•	Pipeline copy_all_tables: Lookup (Look for all tables) -> ForEach Schema Table (Copy Each Table) -> Bronze to Silver Notebook -> Silver to Gold Notebook. Dynamic pattern using @activity('Look for all tables').output.value - no hardcoding.
+•	Pipeline copy_all_tables: Lookup (Look for all tables) -> ForEach Schema Table (Copy Each Table) -> Bronze to Silver Notebook -> Silver to Gold Notebook.  Dynamic pattern using @activity('Look for all tables').output.value - no hardcoding.
 
 <img width="1901" height="507" alt="screenshot 4" src="https://github.com/user-attachments/assets/3511b025-acd3-4dec-8e43-e1cdea7ec998" />
 
@@ -46,7 +46,7 @@ I mapped your actual resources from rg-data-engineering-project screenshot:
 
 <img width="1532" height="865" alt="screenshot 6" src="https://github.com/user-attachments/assets/f1fe540c-bae8-4eab-9d52-dda74eca58f3" />
 
-## Key Highlights (Recruiter bullets)
+## Key Highlights
 
 •	Dynamic ingestion pattern (scalable to 100+ tables)
 

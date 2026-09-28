@@ -11,6 +11,7 @@ I mapped your actual resources from rg-data-engineering-project screenshot:
 •	5 services (ADF, Databricks, Key Vault, Storage, Synapse) all in Australia East
 
 <img width="1887" height="720" alt="screenshot 5" src="https://github.com/user-attachments/assets/b9ce0670-fceb-4cbe-9c4f-f1fbd4534d54" />
+
 •	Storage containers silver and gold with _delta_log + snappy.parquet proof
 
 <img width="1911" height="711" alt="screenshot 2" src="https://github.com/user-attachments/assets/98dc71bc-49d6-4372-aee1-ae1d15321f51" />
@@ -18,6 +19,7 @@ I mapped your actual resources from rg-data-engineering-project screenshot:
 <img width="1832" height="770" alt="screenshot 3" src="https://github.com/user-attachments/assets/a47962ec-78ac-418b-b75f-6cfa7a1c19e7" />
 
 •	Synapse views dbo.address, dbo.Customer, dbo.Product etc.
+
 <img width="1772" height="742" alt="screenshot 1" src="https://github.com/user-attachments/assets/f57270c4-2e5b-4474-82c8-7b358144d6e6" />
 
  ## Pipeline Details (from your 2 pipelines)
@@ -39,6 +41,7 @@ I mapped your actual resources from rg-data-engineering-project screenshot:
 <img width="1320" height="316" alt="screenshot 10" src="https://github.com/user-attachments/assets/3fd05f6b-397a-4b00-9860-3d3ccdde3dd9" />
 
 ## Triggers
+
 •	Trigger: Daily 00:25 AM Auckland time, Monitor shows Succeeded in 00:05:45 with 14 activity runs.
 
 <img width="1532" height="865" alt="screenshot 6" src="https://github.com/user-attachments/assets/f1fe540c-bae8-4eab-9d52-dda74eca58f3" />

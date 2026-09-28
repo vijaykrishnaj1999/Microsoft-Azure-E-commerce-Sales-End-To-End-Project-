@@ -4,7 +4,7 @@ To design and implement a complete, automated Medallion Lakehouse (Bronze, Silve
 
 <img width="1190" height="562" alt="screenshot 0" src="https://github.com/user-attachments/assets/facf732d-1ba9-4e2c-8965-8b39fc437f6b" />
 
-2. ## Structure
+ ## Structure
 
 I mapped your actual resources from rg-data-engineering-project screenshot:
 
@@ -20,7 +20,7 @@ I mapped your actual resources from rg-data-engineering-project screenshot:
 •	Synapse views dbo.address, dbo.Customer, dbo.Product etc.
 <img width="1772" height="742" alt="screenshot 1" src="https://github.com/user-attachments/assets/f57270c4-2e5b-4474-82c8-7b358144d6e6" />
 
-3. ## Pipeline Details (from your 2 pipelines)
+ ## Pipeline Details (from your 2 pipelines)
 
 •	Pipeline copy_all_tables: Lookup (Look for all tables) -> ForEach Schema Table (Copy Each Table) -> Bronze to Silver Notebook -> Silver to Gold Notebook. Dynamic pattern using @activity('Look for all tables').output.value - no hardcoding.
 
@@ -42,8 +42,6 @@ I mapped your actual resources from rg-data-engineering-project screenshot:
 •	Trigger: Daily 00:25 AM Auckland time, Monitor shows Succeeded in 00:05:45 with 14 activity runs.
 
 <img width="1532" height="865" alt="screenshot 6" src="https://github.com/user-attachments/assets/f1fe540c-bae8-4eab-9d52-dda74eca58f3" />
-
-<img width="1532" height="865" alt="screenshot 6" src="https://github.com/user-attachments/assets/9015f899-bd83-440b-a95f-d6fe89d889ee" />
 
 ## Key Highlights (Recruiter bullets)
 
